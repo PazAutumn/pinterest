@@ -1,1 +1,67 @@
+.fa {
+	color: #E11D1DFF;
+	margin: 20px;
+}
 
+.fa:hover {
+	cursor: pointer;
+}
+
+header {
+	position: fixed;
+}
+
+input {
+	border-radius: 1em;
+	width: 1000px;
+	height: 30px;
+	background-color: #EFEFEFFF;
+
+}
+
+.barra {
+	padding-bottom: 10px;
+}
+
+.barra-uno {
+	
+	border-bottom: 1px solid #EAEAEAFF;
+}
+
+.barra-dos {
+	margin-left: 270px;
+	padding-bottom: 100px;
+}
+
+.fa-user {
+	color: #DBDBDBFF;
+	margin: 20px;
+}
+
+.fa-bars {
+	color: #DBDBDBFF;
+	margin: 20px;
+}
+
+.fa-commenting {
+	color: #DBDBDBFF;
+	margin: 20px;
+}
+
+.button {
+	width: 80px;
+	height: 40px;
+	font-family: sans-serif;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	padding-top: 18px;
+	border-radius: .3em;
+	background-color: #F2AAE4FF;
+	margin: 4px;
+	float: left;		
+}
+
+.button:nth-child(odd) {
+	background-color: #3E005BD7;
+}
