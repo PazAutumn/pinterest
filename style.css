@@ -1,6 +1,13 @@
+.masonry {
+  column-count: 3;
+  column-gap: 1em;
+}
+
+
 .fa {
 	color: #E11D1DFF;
-	margin: 20px;
+	margin: 20px 40px;
+	marg
 }
 
 .fa:hover {
@@ -9,6 +16,7 @@
 
 header {
 	position: fixed;
+	background-color: #fff;
 }
 
 input {
@@ -16,21 +24,25 @@ input {
 	width: 1000px;
 	height: 30px;
 	background-color: #EFEFEFFF;
-
 }
 
 .barra {
 	padding-bottom: 10px;
 }
 
-.barra-uno {
-	
+.barra-uno {	
 	border-bottom: 1px solid #EAEAEAFF;
+	position: relative;
+	margin-top: -20px;
 }
 
 .barra-dos {
+	width: 750px;
+	height: 80px;
 	margin-left: 270px;
-	padding-bottom: 100px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	position: relative;
 }
 
 .fa-user {
@@ -58,10 +70,19 @@ input {
 	padding-top: 18px;
 	border-radius: .3em;
 	background-color: #F2AAE4FF;
-	margin: 4px;
+	margin-left: 8px;
 	float: left;		
 }
 
 .button:nth-child(odd) {
 	background-color: #3E005BD7;
+}
+
+.img {
+	width: 50%;
+	margin: 0 0 1em;
+	border-radius: .2em; 
+	background-color: #fff;
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
